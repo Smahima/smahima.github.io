@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom';
 class Portfolio extends Component {
 
   render() {
+    let button = {
+      backgroundColor: "yellow",
+      color: "black",
+    };
      return (
        <div>
          <p>Projects</p>
-         <button><Link to="/Home">Home</Link></button>
+         <button className="button" style={button}><Link to="/Home">Home</Link></button>
        </div>
      );
    }

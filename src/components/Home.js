@@ -3,10 +3,15 @@ import { Link } from 'react-router-dom';
 
 class Home extends Component {
   render() {
+    let button = {
+      backgroundColor: "yellow",
+      color: "black",
+    };
+
      return (
        <div>
          <p>A home page seems redundant</p>
-         <button><Link to="/Portfolio">Portfolio</Link></button>
+         <button className="button" style={button}><Link to="/Portfolio">Portfolio</Link></button>
        </div>
      );
    }

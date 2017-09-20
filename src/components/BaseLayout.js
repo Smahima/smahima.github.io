@@ -7,10 +7,14 @@ class BaseLayout extends Component {
      color: "orange",
    };
    let boxStyle = {
-     backgroundColor: "blue",
+     backgroundColor: "purple",
    };
+   let footer = {
+    color: "white",
+   };
+
     return (
-      <div>
+      <div className="box" style={boxStyle}>
 
           <div className="navBar">
           <p><Link to="/About" style={navBar}>About Me</Link></p>
@@ -19,7 +23,7 @@ class BaseLayout extends Component {
           </div>
         {this.props.children}
 
-        <footer>Foot in mouth situations are abundant</footer>
+        <footer className="footer" style={footer}>Foot in mouth situations are abundant</footer>
       </div>
 
       );
