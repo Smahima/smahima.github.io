@@ -6,18 +6,13 @@ class BaseLayout extends Component {
     return (
       <div>
 
-          <div className="header">
-          <ul className="navbar">
-
-            <Link to="/About">About Me</Link>
-
-            <Link to="/Home">Home</Link>
-
-
-            <Link to="/Portfolio">Portfolio</Link>
-
-          </ul>
+          <div className="navbar">
+          <p><Link to="/About">About Me</Link></p>
+          <p><Link to="/Home">Home</Link></p>
+          <p><Link to="/Portfolio">Portfolio</Link></p>
           </div>
+
+
 
         {this.props.children}
 
