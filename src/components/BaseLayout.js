@@ -1,17 +1,31 @@
 import React, { Component } from 'react';
-import Home from '../components/Home';
-import About from '../components/About';
-import Portfolio from '../components/Portfolio';
+import { Link } from 'react-router-dom';
 
 class BaseLayout extends Component {
   render() {
     return (
       <div>
-        <nav to="/About">About Me</nav>
-        <nav to="/Home">Home</nav>
-        <nav to="/Portfolio">Portfolio</nav>
+
+          <div className="header">
+          <ul className="navbar">
+
+            <Link to="/About">About Me</Link>
+
+            <Link to="/Home">Home</Link>
+
+
+            <Link to="/Portfolio">Portfolio</Link>
+
+          </ul>
+          </div>
+
+        {this.props.children}
+
+        <footer>Foot in mouth situations are abundant</footer>
       </div>
+
       );
+
     }
   }
 
