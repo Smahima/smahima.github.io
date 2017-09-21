@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class App extends Component {
-  render () {
-    return (
-  
-    );
-  }
-}
+  render() {
+    let button = {
+      backgroundColor: "yellow",
+      color: "black",
+    };
+
+     return (
+       <div>
+         <p>Jump on in!</p>
+         <button className="button" style={button}><NavLink to="/Portfolio">Portfolio</NavLink></button>
+       </div>
+     );
+   }
+ }
 
 
 export default App;

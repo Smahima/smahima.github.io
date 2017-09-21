@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -11,7 +11,7 @@ class Home extends Component {
      return (
        <div>
          <p>A home page seems redundant</p>
-         <button className="button" style={button}><Link to="/Portfolio">Portfolio</Link></button>
+         <button className="button" style={button}><NavLink to="/Portfolio">Portfolio</NavLink></button>
        </div>
      );
    }

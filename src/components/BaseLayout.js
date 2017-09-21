@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class BaseLayout extends Component {
   render() {
@@ -7,7 +7,7 @@ class BaseLayout extends Component {
      color: "orange",
    };
    let boxStyle = {
-     backgroundColor: "purple",
+     backgroundColor: "white",
    };
    let footer = {
     color: "white",
@@ -17,9 +17,12 @@ class BaseLayout extends Component {
       <div className="box" style={boxStyle}>
 
           <div className="navBar">
-          <p><Link to="/About" style={navBar}>About Me</Link></p>
-          <p><Link to="/Home" style={navBar}>Home</Link></p>
-          <p><Link to="/Portfolio" style={navBar}>Portfolio</Link></p>
+          <p><NavLink to="/App" style={navBar}>Splash Page</NavLink></p>
+          <p><NavLink to="/About" style={navBar}>About Me</NavLink></p>
+          <p><NavLink to="/Home" style={navBar}>Home</NavLink></p>
+          <p><NavLink to="/Portfolio" style={navBar}>Portfolio</NavLink></p>
+          <p><NavLink to="/Contacts" style={navBar}>Contact Me</NavLink></p>
+          <p><NavLink to="/References" style={navBar}>References</NavLink></p>
           </div>
         {this.props.children}
 
