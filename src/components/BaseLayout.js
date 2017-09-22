@@ -20,7 +20,7 @@ class BaseLayout extends Component {
       <div className="box" style={boxStyle}>
 
           <div className="navBar">
-          <NavLink activeClassName="selected" className="nav-link" exact to="/App" style={navBar}>Splash Page</NavLink><NavLink activeClassName="selected" className="nav-link" to="/About" style={navBar}>About Me</NavLink>
+          <NavLink activeClassName="selected" className="nav-link" exact to="/" style={navBar}>Splash Page</NavLink><NavLink activeClassName="selected" className="nav-link" to="/About" style={navBar}>About Me</NavLink>
           <NavLink activeClassName="selected" className="nav-link" to="/Home" style={navBar}>Home</NavLink>
           <NavLink activeClassName="selected" className="nav-link" to="/Portfolio" style={navBar}>Portfolio</NavLink>
           <NavLink activeClassName="selected" className="nav-link" to="/Contacts" style={navBar}>Contact Me</NavLink>
