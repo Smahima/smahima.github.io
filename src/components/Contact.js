@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Mailto from 'react-mailto';
 
 
-class Contacts extends Component {
+export default class Contact extends Component {
   render() {
 
      return (
@@ -16,7 +16,3 @@ class Contacts extends Component {
      );
   }
 }
-
-
-
-export default Contacts;

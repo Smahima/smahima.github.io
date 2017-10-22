@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import BaseLayout from './BaseLayout'
 
 class App extends Component {
   render() {
-    let button = {
-      backgroundColor: "yellow",
-      color: "black",
-    };
 
      return (
        <div>
-          <p>Jump on in!</p>
-          <button className="button" style={button}><NavLink to="/Portfolio">Portfolio</NavLink></button>
+
+        <div>
+        <p>Howdy! I am Mahima and thank you for visiting my page.</p>
+        <p>I am a front end web devloper</p></div>
+
+
        </div>
      );
    }

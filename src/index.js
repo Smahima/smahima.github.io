@@ -4,13 +4,12 @@ import './styles/index.css';
 import './styles/App.css';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import About from './components/About';
 import App from './components/App';
 import BaseLayout from './components/BaseLayout';
-import Contacts from './components/Contacts';
-import Home from './components/Home';
+import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import References from './components/References';
+import Process from './components/Process';
+import Resume from './components/Resume';
 
 
 ReactDOM.render(
@@ -18,11 +17,10 @@ ReactDOM.render(
   <BaseLayout>
     <Switch>
       <Route exact path="/" component={App} />
-      <Route path="/about" component={About}/>
-      <Route path="/home" component={Home} />
       <Route path="/portfolio" component={Portfolio} />
-      <Route path="/contacts" component={Contacts}/>
-      <Route path="/references" component={References}/>
+      <Route path="/process" component={Process}/>
+      <Route path="/resume" component={Resume}/>
+      <Route path="/contact" component={Contact}/>
     </Switch>
     </BaseLayout>
   </BrowserRouter>

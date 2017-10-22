@@ -3,12 +3,12 @@
 
 }
 
-.navBar {
+.nav {
   display: flex;
 }
 
 .nav-link {
-  color: #2d4f1c;
+  color: blue;
   text-decoration: none;
   font-size: 15px;
 }
@@ -19,11 +19,15 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
+.header {
+  background-color: grey;
   height: 150px;
   padding: 20px;
-  color: white;
+  color:  blue;
+}
+
+.footer {
+  color: blue;
 }
 
 .App-intro {
