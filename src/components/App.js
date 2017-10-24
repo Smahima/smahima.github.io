@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import '../styles/App.css';
 import BaseLayout from './BaseLayout'
 
-class App extends Component {
+export default class App extends Component {
   render() {
+    return (
+      <div className="About">
 
-     return (
-       <div>
-
-        <div>
-        <p>Howdy! I am Mahima and thank you for visiting my page.</p>
-        <p>I am a front end web devloper</p></div>
-
-
-       </div>
-     );
-   }
- }
+        <div className="about">Howdy!
+          <p>I am Mahima and thank you for visiting my page.I am a front end web devloper</p>
+        </div>
 
 
-export default App;
+      </div>
+    );
+  }
+}
