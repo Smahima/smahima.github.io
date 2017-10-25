@@ -12,3 +12,9 @@ c. Learned to do accents:
    i. highlight letter where accent needs to be
    ii. press option+e and accent will appear (default can be changed to other accents as needed)
    iii. enter the letter
+
+To do:
+1. Add pic
+2. Upload Resume
+3. Add 3 projects
+4. Process explanation

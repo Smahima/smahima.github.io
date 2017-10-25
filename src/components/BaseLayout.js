@@ -16,7 +16,7 @@ class BaseLayout extends Component {
        </div>
 
       <div className="nav">
-       <NavLink activeClassName="selected" className="nav-link" exact to="/">About Me</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" exact to="/About">Meet Me</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Projects">Projects</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Processs">My Approach</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Resume">Résumé</NavLink>
