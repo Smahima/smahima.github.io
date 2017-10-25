@@ -12,12 +12,12 @@ class BaseLayout extends Component {
        <div className="header">
         <h1> Mahima Subramanian</h1>
         <h3> Front End Web Developer</h3>
-    
+
        </div>
 
       <div className="nav">
        <NavLink activeClassName="selected" className="nav-link" exact to="/">About Me</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/Portfolio">Portfolio</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" to="/Projects">Projects</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Processs">My Approach</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Resume">Resume</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Contact">Contact Me</NavLink>

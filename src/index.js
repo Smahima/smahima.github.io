@@ -7,7 +7,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import App from './components/App';
 import BaseLayout from './components/BaseLayout';
 import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 import Process from './components/Process';
 import Resume from './components/Resume';
 
@@ -17,7 +17,7 @@ ReactDOM.render(
   <BaseLayout>
     <Switch>
       <Route exact path="/" component={App} />
-      <Route path="/portfolio" component={Portfolio} />
+      <Route path="/project" component={Project} />
       <Route path="/process" component={Process}/>
       <Route path="/resume" component={Resume}/>
       <Route path="/contact" component={Contact}/>
