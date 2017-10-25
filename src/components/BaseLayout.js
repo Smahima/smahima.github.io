@@ -19,7 +19,7 @@ class BaseLayout extends Component {
        <NavLink activeClassName="selected" className="nav-link" exact to="/">About Me</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Projects">Projects</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Processs">My Approach</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/Resume">Resume</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" to="/Resume">Résumé</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/Contact">Contact Me</NavLink>
       </div>
         {this.props.children}
