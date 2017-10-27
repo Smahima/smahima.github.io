@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import resumepdf from '../documents/Subramanian_Mahima_Résumé.pdf'
+import resumepdf from '../documents/Subramanian_Mahima_Résumé.pdf';
+import resume from '../images/resume.png';
 
 
 export default  class Resume extends Component {
@@ -13,7 +14,10 @@ export default  class Resume extends Component {
         <a id="pdf" href={resumepdf}>{"Mahima's Resume for Download "}</a>
       </div>
 
-      
+      <div>
+      <a><img src={resume} alt="screenshot of resume" height="50px"/> </a>
+
+      </div>
 
 
        </div>
