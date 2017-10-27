@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import checklist from '../images/checklist.png';
-
+import progress from '../images/projectprogress.png';
+import schedule from '../images/dailyschedule.png';
 
 export default class Process extends Component {
   render() {
@@ -10,26 +11,39 @@ export default class Process extends Component {
 
         <div className="process">
 
-        <p>I included this section to showcase my process for</p>
-        <p>planning, organizing, and methodically tackling a project.</p>
-        <p>About two weeks into the boot-camp, I realized</p>
-        <p>the value of planning a project before starting.</p><br></br>
+          <p>I included this section to showcase my process for</p>
+          <p>planning, organizing, and methodically tackling a project.</p>
+          <p>About two weeks into the boot-camp, I realized</p>
+          <p>the value of planning a project before starting.</p><br></br>
 
-        <p>I am a front end web developer, recently graduated from a fullstack program</p>
-        <p>at The Iron Yard and was introduced to React. I devote my time to creating</p>
-        <p>engaging, attractive, and user-friendly sites. I found my way to</p>
-        <p> coding through diverse career paths from social work to</p>
-        <p>project management. I have a passion for social causes and hope to use</p>
-        <p>my skills to benefit and do pro-bono work for certain organizations.</p><br></br>
+          <p>First, I start with a checklist. It asks basic questions about the process</p>
+          <p>o I can brainstorm ideas. I use this to then informs</p>
+          <p>the wireframe(s) and component diagrams for a project.</p><br></br>
 
-        <p>When I’m not in front of the terminal, I am reading (my ideal home is a library),</p>
-        <p>dancing, volunteering, or enjoying what Austin has to offer. Exploring Austin includes</p>
-        <p>finding coffee shops in which to read or code. Come join me for a cup of java! (see what I did there?)</p><br></br>
+          <div className="list">
+            <img src={checklist} alt="picture of checklist">
+            </img>
+          </div>
 
-      <div className="list">
-        <img src={checklist} alt="picture of checklist">
-        </img>
-      </div>
+          <p>Next I create a spreadsheet organized by day of the week, </p>
+          <p>with tabs I can brainstorm ideas. for specific weeks showcasing</p>
+          <p>tprogress in consecutive weeks. This helps me stay on task</p>
+          <p>and know how to prioritize.  These notes also go into my README.</p><br></br>
+
+          <div className="list">
+            <img src={progress} alt="pic of spreadsheet to track project progress">
+            </img>
+          </div>
+
+          <p>Finally, I use I use a daily schedule spreadsheet to organize my tasks. </p>
+          <p>This goes from 9 am to 5 pm and is chunked into 30 minute blocks</p>
+          <p>into which I assign tasks. The tricky part is sticking</p>
+          <p>to the schedule if something comes up that takes longer.</p><br></br>
+
+          <div className="list">
+            <img src={schedule} alt="pic of daily schedule spreadsheet">
+            </img>
+          </div>
 
         </div>
 
