@@ -22,14 +22,13 @@ class BaseLayout extends Component {
        <NavLink activeClassName="selected" className="nav-link" exact to="/about">Meet Me</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/projects">Projects</NavLink>
        <NavLink activeClassName="selected" className="nav-link" to="/resume">Résumé</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/contact">Contact Me</NavLink>
       </div>
         {this.props.children}
 
         <footer className="contact">
 
         <div className="email">
-          <p>How to get in touch with me: mahima.subramanian@gmail.com</p>
+          <p>How to get in touch with me: mahima.subramanian[at]gmail.com</p>
           <p><a href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">Email Me (this link opens a blank email)</a></p>
         </div>
 
