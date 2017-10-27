@@ -19,21 +19,22 @@ class BaseLayout extends Component {
        </div>
 
       <div className="nav">
-       <NavLink activeClassName="selected" className="nav-link" exact to="/About">Meet Me</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/Projects">Projects</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/Processs">My Approach</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/Resume">Résumé</NavLink>
-       <NavLink activeClassName="selected" className="nav-link" to="/Contact">Contact Me</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" exact to="/about">Meet Me</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" to="/projects">Projects</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" to="/resume">Résumé</NavLink>
+       <NavLink activeClassName="selected" className="nav-link" to="/contact">Contact Me</NavLink>
       </div>
         {this.props.children}
 
         <footer className="contact">
 
         <div className="email">
-          <p>mahima.subramanian@gmail.com</p>
+          <p>How to get in touch with me: mahima.subramanian@gmail.com</p>
+          <p><a href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">Email Me (this link opens a blank email)</a></p>
         </div>
 
          <div className="social-media">
+           <p>Checkout out my profiles and blog:</p>
            <a href="https://www.linkedin.com/in/msubramanian/"><img src={LinkedIn} alt="LinkedIn Icon" height="50px"/> </a>
            <a href="https://github.com/Smahima"><img src={GitHub} alt="GitHub Icon" height="50px"/> </a>
            <a href="https://medium.com/@mahimaS"><img src={Medium} alt="Meidum" height="30px"/> </a>
