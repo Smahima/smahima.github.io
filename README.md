@@ -22,4 +22,3 @@ Still To do:
 1. Resume: add content in body.
 2. Add 3 projects
 3. Process explanation
-4.

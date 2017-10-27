@@ -8,7 +8,7 @@ export default class Projects extends Component {
      return (
        <div>
          <p>Projects</p>
-         <Link to="/">About Me</Link>
+         
        </div>
      );
    }
