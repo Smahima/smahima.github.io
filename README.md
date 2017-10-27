@@ -17,8 +17,9 @@ Completed:
 - Add pic: 27 October 2017: remember to put all files and directories in SRC!
 - Upload Resume: pdf uploaded
 - Complete contact info: added icons for li, gh, & medium in footer, added email to footer, on contact page added medium, updated auto email with subject line
+- Added two project pics and one line description of projects.
 
 Still To do:
 1. Resume: add content in body.
-2. Add 3 projects
+2. Projects: add robots, add more explanation to all 3, re-size image and style layout
 3. Process explanation

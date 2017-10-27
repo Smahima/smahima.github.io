@@ -39,10 +39,9 @@ body {
   font-size: 15px;
 }
 
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.portfolio-image {
+ width: 35%;
+ display: inline-flex;
 }
 
 .header {
