@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
+import '../styles/index.css';
 import BaseLayout from './BaseLayout';
 import About from './About';
 
@@ -13,7 +13,7 @@ export default class App extends Component {
         </div>
 
         <About/>
-        
+
       </div>
     );
   }

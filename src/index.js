@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import './styles/App.css';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import App from './components/App'
@@ -11,7 +10,6 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Process from './components/Process';
 import Resume from './components/Resume';
-
 
 ReactDOM.render(
   <BrowserRouter>
