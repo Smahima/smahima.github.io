@@ -39,9 +39,12 @@ body {
   font-size: 15px;
 }
 
+.project{
+  display:flex;
+  flex-direction: column;
+}
 .portfolio-image {
  width: 35%;
- display: inline-flex;
 }
 
 .header {
