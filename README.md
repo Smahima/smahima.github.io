@@ -24,4 +24,4 @@ Still To do:
 1. Resume: Same to turn pdf into a png to post to this page.
 2. Projects: add robots, add more explanation to all 3, re-size image and style layout
 3. Process explanation: Why isn't it displaying? Add downloadable versions of the list and spreadsheets
-4. Domain not displaying. Followed steps to add cname record in hover and still not working 
+4. Domain not displaying. Followed steps to add cname record in hover and still not working. Check 24 hours after setting up. 
