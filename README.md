@@ -13,8 +13,11 @@ c. Learned to do accents:
    ii. press option+e and accent will appear (default can be changed to other accents as needed)
    iii. enter the letter
 
-To do:
-1. Add pic 27 October 2017: remember to put all files and directories in SRC!
-2. Upload Resume
-3. Add 3 projects
-4. Process explanation
+Completed:
+- Add pic: 27 October 2017: remember to put all files and directories in SRC!
+- Upload Resume: pdf uploaded
+
+Still To do:
+1. Resume: add content in body.
+2. Add 3 projects
+3. Process explanation
