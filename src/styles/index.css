@@ -48,7 +48,7 @@ body {
 }
 
 .header {
-  background-color: grey;
+  background-color: #CCC5C6;
   height: 150px;
   padding: 20px;
   color:  blue;
@@ -58,6 +58,7 @@ body {
 .footer {
   color: blue;
   margin-top: 3%;
+
 }
 
 .App-intro {
