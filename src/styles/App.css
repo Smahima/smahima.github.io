@@ -6,6 +6,10 @@
 .About {
   margin: 2% 0 0 1%;
 }
+
+.about h5 {
+  margin-left: 1%;
+}
 .about p {
   margin-bottom: 0;
 }
