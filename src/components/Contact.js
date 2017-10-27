@@ -11,7 +11,7 @@ export default class Contact extends Component {
 
        <div className="contact">
         <p>How to get in touch with me:</p>
-        <p><Mailto email="mahima.subramanian@gmail.com" obfuscate={true}>Email me! (this link opens a blank email)</Mailto></p>
+        <p><a href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">Email Me! (this link opens a blank email)</a></p>
         <p><a href="https://www.linkedin.com/in/msubramanian/" to="/linkedin">Linkedin</a></p>
         <p><a href="https://github.com/Smahima" to="/github">Github</a></p>
        </div>

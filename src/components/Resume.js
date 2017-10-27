@@ -15,7 +15,7 @@ export default  class Resume extends Component {
       </div>
 
       <div>
-      <a><img src={resume} alt="screenshot of resume" height="50px"/> </a>
+      <a><img src={resume} alt="screenshot of resume" height="1000px"/> </a>
 
       </div>
 
