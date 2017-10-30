@@ -31,37 +31,21 @@ body {
 
 button {
 	border: 3px solid #3a7999;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 button:hover {
 	border: 3px dotted #3a7999;
 	color: #3a7999;
 	background: rgba(0,0,0,0);
-  padding: 10px;
+
 }
 
-/*button:hover {
-  background: rgba(0,0,0,0);
-	color: #3a7999;
-	box-shadow: inset 0 0 0 3px #3a7999;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-border: none;
-background: #3a7999;
-color: #f2f2f2;
-padding: 10px;
-font-size: 18px;
-
-position: relative;
-
-transition: all 500ms ease;*/
-
-/*.nav-link {
-  color: blue;
-  text-decoration: ;
+.nav-link {
+  color: #3a7999;
+  font-weight: bold;
   font-size: 15px;
-}*/
+}
 
 .project{
   display:flex;
@@ -75,13 +59,13 @@ transition: all 500ms ease;*/
   background-color: #CCC5C6;
   height: 150px;
   padding: 20px;
-  color:  blue;
+  color:  #3a7999;
   margin-bottom: 1%;
 }
 
 .contact {
   background-color: #CCC5C6;
-  color: blue;
+  color: #3a7999;
   /*margin-top: 3%;*/
   display: flex;
   flex-direction: row;
