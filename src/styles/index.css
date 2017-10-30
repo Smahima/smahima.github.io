@@ -5,13 +5,8 @@ body {
 
 }
 
-.navBar {
-
-}
-
 .App {
   text-align: center;
-
 }
 
 .About {
@@ -34,11 +29,39 @@ body {
   flex-direction: row;
 }
 
-.nav-link {
-  color: blue;
-  text-decoration: none;
-  font-size: 15px;
+button {
+	border: 3px solid #3a7999;
 }
+button:hover {
+	border: 3px dotted #3a7999;
+	color: #3a7999;
+	background: rgba(0,0,0,0);
+  padding: 10px;
+}
+
+/*button:hover {
+  background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+border: none;
+background: #3a7999;
+color: #f2f2f2;
+padding: 10px;
+font-size: 18px;
+
+position: relative;
+
+transition: all 500ms ease;*/
+
+/*.nav-link {
+  color: blue;
+  text-decoration: ;
+  font-size: 15px;
+}*/
 
 .project{
   display:flex;
@@ -88,10 +111,6 @@ body {
 
 #medium {
   margin-left: 3%;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 @keyframes App-logo-spin {
