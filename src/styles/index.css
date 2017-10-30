@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #5DADE2;
+  background-color: #F7DC6F;
 
 }
 
@@ -12,6 +12,7 @@ body {
 
 .About {
   margin: 2% 0 0 1%;
+  color: #7D3C98;
 
 }
 
@@ -23,10 +24,10 @@ body {
 }
 
 .header {
-  background-color: #CCC5C6;
+  background-color: #F7DC6F;
   height: 150px;
   padding: 20px;
-  color:  #3a7999;
+  color:   #7D3C98;
   margin-bottom: 1%;
 }
 
@@ -39,30 +40,28 @@ button {
 	border: 3px solid #3a7999;
   margin-left: 5px;
   border-radius: 5px;
+  background: #7D3C98;
+
 }
 button:hover {
 	border: 3px dotted #3a7999;
-	color: #3a7999;
-	background: rgba(0,0,0,0);
-
+	color:  #F7DC6F;
+  background-color: #ECF0F1;
 }
 
 .nav-link {
-  color: #3a7999;
+  color:  #F7DC6F;
   font-weight: bold;
   font-size: 15px;
 }
 
-.portfolio-image {
- width: 15%;
-
-
+.pic {
+  display: flex;
 }
-
 .contact {
-  background-color: #CCC5C6;
-  color: #3a7999;
-  /*margin-top: 3%;*/
+  background-color:  #F7DC6F;
+  color:#7D3C98;
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
 }
@@ -93,10 +92,15 @@ button:hover {
   margin-left: 3%;
 }
 
+.portfolio-image {
+ width: 15%;
+
+}
+
 .project{
   display:flex;
   flex-direction: column;
-  color: #F0F3F4;
+    color: #7D3C98;
 }
 
 .resume-download {
@@ -107,12 +111,12 @@ button:hover {
 
 .resume-header {
   margin: 2% 0 0 2%;
-  color: #F0F3F4;
+    color: #7D3C98;
 }
 
 .resume-body {
   margin: 0 0 0 2%;
-  color: #F0F3F4;
+    color: #7D3C98;
 }
 
 .skills {

@@ -29,7 +29,7 @@ class BaseLayout extends Component {
 
         <div className="email">
           <p>How to get in touch with me: mahima.subramanian[at]gmail.com</p>
-          <p><a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">Email Me (this link opens a blank email)</a></p>
+          <p><a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">This link opens a blank email</a></p>
         </div>
 
          <div className="social-media">
