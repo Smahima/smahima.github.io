@@ -27,13 +27,18 @@ export default class Projects extends Component {
           <h3> ClearPath</h3>
           <p className="project-info"> A venue rating site focused on Accessibility.</p>
           <img src={clearpath} className="portfolio-image"/>
-          <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript</p>
+          <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
           <div className="project-links">
             <a>Live Link </a>
             <a href="https://github.com/Smahima/clearPath"> Code</a>
           </div>
          </div>
 
+         <div className="project">
+           <h3>Natya Connect</h3>
+           <p className="project-info"> A forum to connect Bharathanatyam enthusiasts</p>
+           <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
+        </div>
 
        </div>
      );

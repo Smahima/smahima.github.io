@@ -51,7 +51,9 @@ button:hover {
   font-size: 15px;
 }
 
-
+.portfolio p{
+  float: right;
+}
 
 .portfolio-image {
  width: 35%;
