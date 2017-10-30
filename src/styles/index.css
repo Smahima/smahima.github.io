@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #5DADE2;
 
 }
 
@@ -11,6 +12,7 @@ body {
 
 .About {
   margin: 2% 0 0 1%;
+
 }
 
 .about h5 {
@@ -51,12 +53,10 @@ button:hover {
   font-size: 15px;
 }
 
-.portfolio p{
-  float: right;
-}
-
 .portfolio-image {
- width: 35%;
+ width: 15%;
+
+
 }
 
 .contact {
@@ -96,6 +96,7 @@ button:hover {
 .project{
   display:flex;
   flex-direction: column;
+  color: #F0F3F4;
 }
 
 .resume-download {
@@ -106,17 +107,17 @@ button:hover {
 
 .resume-header {
   margin: 2% 0 0 2%;
-  color: #3a7999;
+  color: #F0F3F4;
 }
 
 .resume-body {
   margin: 0 0 0 2%;
+  color: #F0F3F4;
 }
 
 .skills {
   display: flex;
   flex-direction: row;
-  color: #3a7999;
 }
 
 .experience p {
