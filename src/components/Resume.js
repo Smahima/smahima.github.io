@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import resumepdf from '../documents/Subramanian_Mahima_Résumé.pdf';
 
 
@@ -11,6 +10,9 @@ export default  class Resume extends Component {
 
        <div className="resume">
 
+       <div className="resume-download">
+         <a id="download" href={resumepdf}>PDF of Resume to Download </a>
+       </div>
          <div className="resume-header">
            <h2> Mahima Subramanian</h2>
            <h3> Front End Web Developer</h3>
@@ -21,7 +23,27 @@ export default  class Resume extends Component {
 
          <div className="skills">
            <h3> SKILLS </h3>
-           <p><span>Technical Skills: </span>CSS, Git, HTML, JavaScript, Nodejs, React,Saas UI, Sequelize, SQL </p>
+           <p>Technical Skills:</p>
+           <ul>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Node</li>
+            <li>React</li>
+            <li>Saas UI</li>
+            <li>Sequelize</li>
+            <li>SQL</li>
+          </ul>
+
+          <p>Leadership & Management:</p>
+          <ul>
+           <li>Budget Development & Management</li>
+           <li>Leading Teams</li>
+           <li>Metrics Analysis</li>
+           <li>JavaScript</li>
+           <li>Project Management </li>
+          </ul>
          </div>
 
          <div className="experience">
