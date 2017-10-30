@@ -10,6 +10,11 @@ export default class About extends Component {
 
         <div className="about">
 
+          <div className="pic">
+            <img src={picture} alt="Me at a Holi celebration, covered in colorful powder">
+            </img>
+          </div>
+
           <p>Moved to Austin from New England (could not take those winters anymore)</p>
           <p>over two years ago and now happy to call ATX home.</p><br></br>
 
@@ -24,10 +29,7 @@ export default class About extends Component {
           <p>dancing, volunteering, or enjoying what Austin has to offer. Exploring Austin includes</p>
           <p>finding coffee shops in which to read or code. Come join me for a cup of java! (see what I did there?)</p><br></br>
 
-        <div className="pic">
-          <img src={picture} alt="Me at a Holi celebration, covered in colorful powder">
-          </img>
-        </div>
+
 
         </div>
 

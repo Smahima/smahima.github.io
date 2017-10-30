@@ -3,24 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #F7DC6F;
-
 }
 
-.App {
-  text-align: center;
-}
-
-.About {
-  margin: 2% 0 0 1%;
-  color: #7D3C98;
-
-}
-
-.about h5 {
-  margin-left: 1%;
-}
 .about p {
-  margin-bottom: 0;
+  margin: 0 0 0 20%;
+  font-size: 25px;
 }
 
 .header {
@@ -29,11 +16,12 @@ body {
   padding: 20px;
   color:   #7D3C98;
   margin-bottom: 1%;
+  text-align: center;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
+.pic {
+  float: right;
+  border-radius: 10px;
 }
 
 button {
@@ -53,11 +41,10 @@ button:hover {
   color:  #F7DC6F;
   font-weight: bold;
   font-size: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
-.pic {
-  display: flex;
-}
 .contact {
   background-color:  #F7DC6F;
   color:#7D3C98;

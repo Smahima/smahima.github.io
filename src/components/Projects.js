@@ -13,8 +13,8 @@ export default class Projects extends Component {
        <div className="portfolio">
 
        <div className="project">
-         <h3> Calculator </h3>
-         <p className="project-info"> A simple calcultor with Johnny 5 as your mascot.</p>
+         <h3> Calculator</h3>
+         <p className="project-info">This project tasked us to create a simple calcultor able to handle basic arithmetic.</p>
          <img src={calculator} className="portfolio-image"/>
          <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript</p>
          <div className="project-links">
@@ -36,7 +36,7 @@ export default class Projects extends Component {
 
          <div className="project">
            <h3>Natya Connect</h3>
-           <p className="project-info"> A forum to connect Bharathanatyam enthusiasts</p>
+           <p className="project-info">A forum to connect Bharathanatyam enthusiasts</p>
            <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
         </div>
 
