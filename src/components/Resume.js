@@ -13,6 +13,7 @@ export default  class Resume extends Component {
        <div className="resume-download">
          <a id="download" href={resumepdf}>PDF of Resume to Download </a>
        </div>
+
          <div className="resume-header">
            <h2> Mahima Subramanian</h2>
            <h3> Front End Web Developer</h3>
@@ -71,7 +72,6 @@ export default  class Resume extends Component {
               <li>Worked with Board of Directors to determine long-term goals to foster progress and uphold agency’s mission to eradicate sexual violence</li>
             </ul>
            </div>
-         </div>
 
          <div className="education">
             <h3>EDUCATION</h3>
@@ -88,12 +88,15 @@ export default  class Resume extends Component {
           </div>
 
           <div className="recognitions"></div>
-          <h5>India New England,Nominated for Woman of the Year Award</h5>
-          <p> for Excellence in Human Services Leadership, 2011.</p>
+            <h5>India New England,Nominated for Woman of the Year Award</h5>
+            <p> for Excellence in Human Services Leadership, 2011.</p>
 
-          <h5>India New England, Named one of 50 most influential people,</h5>
-          <p>recognized for leadership at the Center for Hope and Healing, 2011</p>
+            <h5>India New England, Named one of 50 most influential people,</h5>
+            <p>recognized for leadership at the Center for Hope and Healing, 2011</p>
+         </div>
 
+         <div className="languages"></div>
+           <p>Bilingual Fluent in English and Tamil</p>
         </div>
 
        </div>

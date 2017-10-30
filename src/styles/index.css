@@ -20,8 +20,12 @@ body {
   margin-bottom: 0;
 }
 
-.pic {
-
+.header {
+  background-color: #CCC5C6;
+  height: 150px;
+  padding: 20px;
+  color:  #3a7999;
+  margin-bottom: 1%;
 }
 
 .nav {
@@ -47,30 +51,10 @@ button:hover {
   font-size: 15px;
 }
 
-.project{
-  display:flex;
-  flex-direction: column;
-}
+
+
 .portfolio-image {
  width: 35%;
-}
-
-.resume-body {
-  margin-bottom: 0;
-}
-
-.skills {
-  display: flex;
-  flex-direction: row;
-}
-
-
-.header {
-  background-color: #CCC5C6;
-  height: 150px;
-  padding: 20px;
-  color:  #3a7999;
-  margin-bottom: 1%;
 }
 
 .contact {
@@ -105,6 +89,40 @@ button:hover {
 
 #medium {
   margin-left: 3%;
+}
+
+.project{
+  display:flex;
+  flex-direction: column;
+}
+
+.resume-download {
+  font-size: 18px;
+  font-weight: bold;
+  margin:2% 0 0 2%;
+}
+
+.resume-header {
+  margin: 2% 0 0 2%;
+  color: #3a7999;
+}
+
+.resume-body {
+  margin: 0 0 0 2%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  color: #3a7999;
+}
+
+.experience p {
+  margin-bottom: 0;
+}
+
+.education p {
+  margin-bottom: 0;
 }
 
 @keyframes App-logo-spin {
