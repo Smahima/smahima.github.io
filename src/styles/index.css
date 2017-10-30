@@ -55,6 +55,10 @@ button:hover {
  width: 35%;
 }
 
+.experience {
+  margin-bottom: 0;
+}
+
 .header {
   background-color: #CCC5C6;
   height: 150px;
