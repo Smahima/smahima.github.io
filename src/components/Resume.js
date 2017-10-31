@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import resumepdf from '../documents/Subramanian_Mahima_Résumé.pdf';
-
-
 
 export default  class Resume extends Component {
   render() {
@@ -11,7 +8,7 @@ export default  class Resume extends Component {
        <div className="resume">
 
        <div className="resume-download">
-         <a id="download" href={resumepdf}>PDF of Resume to Download </a>
+         <a id="download" href='https://docs.google.com/document/d/19mS5F52qNMoSC2mOD2kfM1IFO_Mglp96laS73uBbALk/edit?usp=sharing'>Link to Résumé</a>
        </div>
 
          <div className="resume-header">
