@@ -7,8 +7,8 @@ export default  class Resume extends Component {
 
        <div className="resume">
 
-       <div className="resume-download">
-         <a id="download" href='https://docs.google.com/document/d/19mS5F52qNMoSC2mOD2kfM1IFO_Mglp96laS73uBbALk/edit?usp=sharing'>Link to Résumé</a>
+       <div className="resume-link">
+         <a href='https://docs.google.com/document/d/19mS5F52qNMoSC2mOD2kfM1IFO_Mglp96laS73uBbALk/edit?usp=sharing'>Link to Résumé</a>
        </div>
 
          <div className="resume-header">

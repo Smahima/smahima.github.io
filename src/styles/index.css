@@ -42,8 +42,9 @@ button {
 
 button:hover {
 	border: 3px dotted #3a7999;
-	color:  #F7DC6F;
+	color:  #7D3C98;
   background-color: #ECF0F1;
+
 }
 
 .nav {
@@ -122,7 +123,7 @@ button:hover {
 
 }
 
-.resume-download {
+.resume-link {
   font-size: 18px;
   font-weight: bold;
   margin:2% 0 0 2%;

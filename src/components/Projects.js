@@ -42,7 +42,7 @@ export default class Projects extends Component {
           <p className="project-details">A party playlist to which anyone can add songs as well as comments</p>
           <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
           <div className="project-links">
-            <a>Live Link </a>
+            <a href="https://songstoplay.surge.sh">Live Link </a>
             <a href="https://github.com/Smahima/addToPlayListReactApp.git"> Code</a>
           </div>
          </div>
