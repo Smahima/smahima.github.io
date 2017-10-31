@@ -88,16 +88,29 @@ button:hover {
   margin-left: 3%;
 }
 
+.portfolio {
+  align-items: center;
+}
 .portfolio-image {
  width: 20%;
  height: 20%;
-float: left;
+ margin-left: 5%;
+
 }
 
 .project{
   display:flex;
-  flex-direction: row;
-  color: #7D3C98;
+  flex-direction: column;
+  color: #3a7999;
+}
+
+.inProgress {
+  color: #C71585;
+}
+
+.project-details {
+  float: left;
+
 }
 
 .resume-download {
@@ -108,12 +121,12 @@ float: left;
 
 .resume-header {
   margin: 2% 0 0 2%;
-    color: #7D3C98;
+    color:  #3a7999;
 }
 
 .resume-body {
   margin: 0 0 0 2%;
-    color: #7D3C98;
+    color:  #3a7999;
 }
 
 .skills {
