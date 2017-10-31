@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import LinkedIn from '../images/In-2C-128px-TM.png';
 import GitHub from '../images/GitHub-Mark-120px-plus.png';
 import Medium from '../images/Monogram.png';
+import picture from '../images/holi.jpg'
+import calculator from '../images/calculator.png';
 
 
 class BaseLayout extends Component {
@@ -16,10 +18,25 @@ class BaseLayout extends Component {
           <h1> Mahima Subramanian</h1>
           <h3> Front End Web Developer</h3>
 
+
+
         <div className="nav">
-          <button><NavLink activeClassName="selected" className="nav-link" exact to="/about">Meet Me</NavLink></button>
-          <button><NavLink activeClassName="selected" className="nav-link" to="/projects">Projects</NavLink></button>
-          <button><NavLink activeClassName="selected" className="nav-link" to="/resume">Résumé</NavLink></button>
+
+        <a className="resume-nav" href="/Resume">
+          <img src={picture} alt="Me at a Holi celebration, covered in colorful powder">
+          </img>
+        </a>
+
+        <a className="about" href="/About">
+          <img src={picture} alt="Me at a Holi celebration, covered in colorful powder">
+          </img>
+        </a>
+
+        <a className="projects-nav" href="/Projectst">
+          <img src={calculator} alt="image of calculator project">
+          </img>
+        </a>
+
         </div>
 
        </div>
