@@ -9,8 +9,8 @@ h5 {
   margin: 0 0 2% 20%;
   font-size: 35px;
   color: #3a7999;
-
 }
+
 .about p {
   margin: 0 0 0 20%;
   font-size: 25px;
@@ -23,7 +23,7 @@ h5 {
   padding: 20px;
   color:   #7D3C98;
   margin-bottom: 1%;
-  text-align: center;
+
 }
 
 .pic {
@@ -42,6 +42,10 @@ button:hover {
 	border: 3px dotted #3a7999;
 	color:  #F7DC6F;
   background-color: #ECF0F1;
+}
+
+.nav {
+  align-content: center;
 }
 
 .nav-link {
@@ -102,10 +106,12 @@ button:hover {
   display:flex;
   flex-direction: column;
   color: #3a7999;
+  background-color: #E6E6FA;
 }
 
 .inProgress {
   color: #C71585;
+  background-color: #E6E6FA;
 }
 
 .project-details {
