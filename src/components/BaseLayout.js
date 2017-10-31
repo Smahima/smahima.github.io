@@ -10,19 +10,18 @@ class BaseLayout extends Component {
 
     return (
 
-      <div>
+      <div className="main">
 
        <div className="header">
           <h1> Mahima Subramanian</h1>
           <h3> Front End Web Developer</h3>
+       </div>
 
         <div className="nav">
           <button><NavLink activeClassName="selected" className="nav-link" exact to="/about">Meet Me</NavLink></button>
           <button><NavLink activeClassName="selected" className="nav-link" to="/projects">Projects</NavLink></button>
           <button><NavLink activeClassName="selected" className="nav-link" to="/resume">Résumé</NavLink></button>
         </div>
-
-       </div>
 
 
         {this.props.children}

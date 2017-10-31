@@ -16,7 +16,7 @@ export default class Projects extends Component {
        <div className="project">
          <h3>Bent Creek Ceramics</h3>
          <img src={ceramics} className="portfolio-image"/>
-         <p className="project-details">This project tasked us to create a simple calcultor able to handle basic arithmetic.</p>
+         <p className="project-details">This project tasked us to create a simple calculator able to handle basic arithmetic.</p>
          <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript</p>
          <div className="project-links">
            <a>Live Link </a>

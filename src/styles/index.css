@@ -24,11 +24,13 @@ h5 {
   padding: 20px;
   color:   #7D3C98;
   margin-bottom: 1%;
+  justify-content: center;
 }
 
 .pic img{
  float: right;
  border-radius: 100%;
+ border: 10px solid #3a7999;
 }
 
 button {
@@ -36,8 +38,8 @@ button {
   margin-left: 5px;
   border-radius: 5px;
   background: #7D3C98;
-
 }
+
 button:hover {
 	border: 3px dotted #3a7999;
 	color:  #F7DC6F;
@@ -46,6 +48,7 @@ button:hover {
 
 .nav {
   align-content: center;
+  justify-content: center;
 }
 
 .nav-link {
