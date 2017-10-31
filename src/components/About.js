@@ -18,14 +18,19 @@ export default class About extends Component {
 
             <h5>{"Howdy, I'm Mahima!"}</h5>
             <p>Moved to Austin from New England (could not take those winters anymore)</p>
-            <p>over two years ago and now happy to call ATX home.</p><br></br>
+            <p>over two years ago and now happy to call ATX home.</p>
 
             <p>I am a front end web developer, recently graduated from a fullstack program</p>
             <p>at The Iron Yard and was introduced to React. I devote my time to creating</p>
             <p>engaging, attractive, and user-friendly sites. I found my way to</p>
             <p> coding through diverse career paths from social work to</p>
-            <p>project management. I have a passion for social causes and hope to use</p>
-            <p>my skills to benefit and do pro-bono work for certain organizations.</p><br></br>
+            <p>project management. I have showcased a few projects that are complete</p>
+            <p>and one that is in progress. Similarly, this site itself is constantly</p>
+            <p>updated and edited, so please bear with me if something is askew.</p>
+            <p>I have a passion for social causes and hope to use</p>
+            <p>my skills to benefit and do pro-bono work for certain organizations.</p>
+            <p>My personal mission statement is to live life with purpose and intention,</p>
+            <p>in everything I do, personal and professional.</p>
 
             <p>When I’m not in front of the terminal, I am reading (my ideal home is a library),</p>
             <p>dancing, volunteering, or enjoying what Austin has to offer. Exploring Austin includes</p>

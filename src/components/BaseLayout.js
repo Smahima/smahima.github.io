@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import LinkedIn from '../images/In-2C-128px-TM.png';
-import GitHub from '../images/GitHub-Mark-120px-plus.png';
-import Medium from '../images/Monogram.png';
+import LinkedIn from '../images/linkedin.png';
+import GitHub from '../images/github.png';
+import Medium from '../images/mediumWhite.png';
 
 
 class BaseLayout extends Component {
