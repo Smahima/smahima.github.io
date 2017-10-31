@@ -54,7 +54,6 @@ export default class Projects extends Component {
           <p className="project-details"> A venue rating site focused on Accessibility.</p>
           <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
           <div className="project-links">
-            <a>Live Link </a>
             <a href="https://github.com/Smahima/clearPath"> Code</a>
           </div>
          </div>

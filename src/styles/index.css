@@ -47,6 +47,9 @@ button:hover {
 
 }
 
+a:visited {
+  color:  #F7DC6F;
+}
 .nav {
   align-content: center;
   justify-content: center;
