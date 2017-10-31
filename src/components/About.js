@@ -15,6 +15,8 @@ export default class About extends Component {
             </img>
           </div>
 
+            <h5>{"Howdy! I'm Mahima."}</h5>
+
           <p>Moved to Austin from New England (could not take those winters anymore)</p>
           <p>over two years ago and now happy to call ATX home.</p><br></br>
 

@@ -5,9 +5,16 @@ body {
   background-color: #F7DC6F;
 }
 
+h5 {
+  margin: 0 0 2% 20%;
+  font-size: 35px;
+  color: #3a7999;
+
+}
 .about p {
   margin: 0 0 0 20%;
   font-size: 25px;
+  color: #3a7999;
 }
 
 .header {
@@ -48,9 +55,10 @@ button:hover {
 .contact {
   background-color:  #F7DC6F;
   color:#7D3C98;
-  margin-top: 3%;
+  /*margin: 3% 0 0 3%;*/
   display: flex;
   flex-direction: row;
+  align-items:stretch;
 }
 
 .email{
@@ -65,6 +73,7 @@ button:hover {
 .social-media {
   display: flex;
   flex-direction: row;
+  margin-left: 5%
 }
 
 #linkedin {
@@ -80,14 +89,15 @@ button:hover {
 }
 
 .portfolio-image {
- width: 15%;
-
+ width: 20%;
+ height: 20%;
+float: left;
 }
 
 .project{
   display:flex;
-  flex-direction: column;
-    color: #7D3C98;
+  flex-direction: row;
+  color: #7D3C98;
 }
 
 .resume-download {
