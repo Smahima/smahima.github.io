@@ -25,7 +25,7 @@ export default class Projects extends Component {
 
         <div className="project">
           <h3>Play List</h3>
-          <p className="project-details">A forum to connect Bharathanatyam enthusiasts</p>
+          <p className="project-details">A party playlist to which anyone can add songs as well as comments.</p>
           <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
        </div>
 

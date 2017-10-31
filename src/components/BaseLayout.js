@@ -13,8 +13,11 @@ class BaseLayout extends Component {
       <div>
 
        <div className="header">
-        <h1> Mahima Subramanian</h1>
-        <h3> Front End Web Developer</h3> 
+
+        <div className="header-title">
+          <h1> Mahima Subramanian</h1>
+          <h3> Front End Web Developer</h3>
+        </div>
 
         <div className="nav">
         <button><NavLink activeClassName="selected" className="nav-link" exact to="/about">Meet Me</NavLink></button>
@@ -22,7 +25,7 @@ class BaseLayout extends Component {
         <button><NavLink activeClassName="selected" className="nav-link" to="/resume">Résumé</NavLink></button>
         </div>
 
-       </div>
+      </div>
 
 
         {this.props.children}

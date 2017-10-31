@@ -88,10 +88,10 @@ export default  class Resume extends Component {
           </div>
 
           <div className="recognitions"></div>
-            <h5>India New England,Nominated for Woman of the Year Award</h5>
+            <p>India New England, Nominated for Woman of the Year Award</p>
             <p> for Excellence in Human Services Leadership, 2011.</p>
 
-            <h5>India New England, Named one of 50 most influential people,</h5>
+            <p>India New England, Named one of 50 most influential people,</p>
             <p>recognized for leadership at the Center for Hope and Healing, 2011</p>
          </div>
 

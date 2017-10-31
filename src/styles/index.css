@@ -121,12 +121,12 @@ button:hover {
 
 .resume-header {
   margin: 2% 0 0 2%;
-    color:  #3a7999;
+  color:  #3a7999;
 }
 
 .resume-body {
   margin: 0 0 0 2%;
-    color:  #3a7999;
+  color:  #3a7999;
 }
 
 .skills {
@@ -141,6 +141,7 @@ button:hover {
 .education p {
   margin-bottom: 0;
 }
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
