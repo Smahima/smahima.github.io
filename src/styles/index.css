@@ -197,9 +197,24 @@ h5 {
 }
 
 .resume-link {
+  text-align: center;
+  text-decoration-color: #F7DC6F;
   font-size: 18px;
   font-weight: bold;
-  margin:2% 0 0 2%;
+  margin:2% 75% 2% 2%;
+  border: 3px solid #3a7999;
+  border-radius: 5px;
+  background: #7D3C98;
+}
+
+.resume-link:hover {
+	border: 3px dotted #3a7999;
+	color:  #7D3C98;
+  background-color: #B3B6B7;
+}
+
+a:visited {
+  color:  #F7DC6F;
 }
 
 .resume-header {
