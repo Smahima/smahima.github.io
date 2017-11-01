@@ -26,7 +26,7 @@ body {
   /*margin: 3% 0 0 3%;*/
   /*display: flex;
   flex-direction: row;*/
-  margin-left: 50%;
+  margin-left: 45%;
 
 }
 
@@ -128,7 +128,7 @@ h5 {
 max-width: 40%;
 
 }
-.project{
+.project {
   display:flex;
   flex-direction: column;
   color: #3a7999;
@@ -137,12 +137,24 @@ max-width: 40%;
 }
 
 .project-links a {
-  background-color: #7D3C98;
   /*margin: 0 90% 0 2%;*/
   text-align: center;
   color: #F7DC6F;
+  border: 3px solid #7D3C98;
+  border-radius: 5px;
+  background: #3a7999;
 
 }
+
+.project-links:hover {
+	border: 3px dotted #3a7999;
+	color:  #7D3C98;
+  background-color: #B3B6B7;
+}
+
+/*.project-links a:visited {
+  color:  #F7DC6F;
+}*/
 
 .inProgress {
   color: #C71585;
