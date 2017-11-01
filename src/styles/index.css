@@ -11,12 +11,19 @@ h5 {
   color: #3a7999;
 }
 
-.about p {
-  margin: 0 0 0 25%;
+.bio p {
+  margin: 0 0 0 0%;
   font-size: 25px;
   color: #3a7999;
   background-color: #E6E6FA;
 }
+
+ /*p span {
+  margin: 0 0 0 0%;
+  font-size: 25px;
+  color: #3a7999;
+  background-color: #E6E6FA;
+}*/
 
 .header {
   background-color: #F7DC6F;
