@@ -6,13 +6,13 @@ body {
 }
 
 h5 {
-  margin: 0 0 2% 20%;
+  margin: 2% 0 2% 25%;
   font-size: 35px;
   color: #3a7999;
 }
 
 .about p {
-  margin: 0 0 0 20%;
+  margin: 0 0 0 25%;
   font-size: 25px;
   color: #3a7999;
   background-color: #E6E6FA;
@@ -28,7 +28,7 @@ h5 {
 }
 
 .pic img{
- float: right;
+ float: left;
  border-radius: 100%;
  border: 10px solid #3a7999;
 }
@@ -162,3 +162,30 @@ a:visited {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/*@media screen and (min-width: 600px){
+  .nav  {
+    flex-basis: 27%;
+  }
+  .about {
+  flex-basis: 27%;
+  }
+  .header {
+    flex-basis: 27%;
+  }
+}*/
+/*600px}*/
+
+
+/*@media screen and (min-width: 1100px){
+  .nav  {
+    flex-basis: 60%;
+  }
+  .about {
+  flex-basis: 60%;
+  }
+  .header {
+    flex-basis: 60%;
+  }
+}*/
+/*1100px}*/
