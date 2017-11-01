@@ -154,6 +154,15 @@ h5 {
 /*Portfolio page end*/
 
 /*Resume page start*/
+.resume {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .resume-link {
   font-size: 18px;
   font-weight: bold;
@@ -161,7 +170,7 @@ h5 {
 }
 
 .resume-header {
-  margin: 2% 5% 0 2%;
+  /*margin: 2% 5% 0 2%;*/
   color:  #3a7999;
   background-color: #E6E6FA;
   text-align: center;
@@ -169,9 +178,10 @@ h5 {
 }
 
 .resume-body {
-  margin: 0 5% 0 2%;
+  /*margin: 2% 5% 0 2%;*/
   color:  #3a7999;
   background-color: #E6E6FA;
+
 }
 
 .skills {
@@ -188,6 +198,7 @@ h5 {
 }
 
 /*Resume page end*/
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
