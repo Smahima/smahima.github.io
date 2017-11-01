@@ -27,10 +27,10 @@ export default class Projects extends Component {
         </div>
 
        <div className="project">
-         <h3> Calculator</h3>
+          <h3>Calculator</h3>
          <img src={calculator} className="portfolio-image"/>
-         <p className="project-details">This project tasked us to create a simple calcultor able to handle basic arithmetic.</p>
-         <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript</p>
+           <p className="project-details">This project tasked us to create a simple calcultor able to handle basic arithmetic.</p>
+           <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript</p>
          <div className="project-links">
            <a href="https://johnny5.surge.sh">Live Link </a>
            <a href="https://github.com/Smahima/calculatorAlgorithmsPractice"> Code</a>

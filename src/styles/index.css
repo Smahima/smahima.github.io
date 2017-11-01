@@ -24,16 +24,17 @@ body {
   background-color:  #F7DC6F;
   color:#7D3C98;
   /*margin: 3% 0 0 3%;*/
-  display: flex;
-  flex-direction: row;
-  margin-left: 25%;
+  /*display: flex;
+  flex-direction: row;*/
+  margin-left: 50%;
 
 }
 
 .email{
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .social-media {
@@ -53,7 +54,6 @@ body {
 #medium {
   margin-left: 3%;
 }
-
 /*Header ends*/
 
 /*Nav buttons start*/
@@ -92,14 +92,6 @@ a:visited {
 
 /*About page start*/
 
-.bio p {
-  margin: 0 2% 0 2%;
-  font-size: 25px;
-  color: #3a7999;
-  background-color: #E6E6FA;
-
-}
-
 h5 {
   margin: 2% 0 2% 35%;
   font-size: 35px;
@@ -114,6 +106,17 @@ h5 {
  margin: 5% 10% 0 0;
 
 }
+
+#bio-text {
+  margin: 0 2% 0 2%;
+  font-size: 25px;
+  color: #3a7999;
+  background-color: #E6E6FA;
+}
+
+#bio-text p {
+  margin: 0;
+}
 /*About page end*/
 
 /*Portfolio page start*/
@@ -122,12 +125,9 @@ h5 {
   align-items: center;
 }
 .portfolio-image {
- width: 20%;
- height: 20%;
- margin-left: 5%;
+max-width: 40%;
 
 }
-
 .project{
   display:flex;
   flex-direction: column;
