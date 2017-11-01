@@ -1,14 +1,9 @@
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background-color: #F7DC6F;
-}
-
-h5 {
-  margin: 2% 0 2% 25%;
-  font-size: 35px;
-  color: #3a7999;
 }
 
 .header {
@@ -20,23 +15,7 @@ h5 {
   justify-content: center;
 }
 
-.bio p {
-  margin: 0 2% 0 2%;
-  font-size: 25px;
-  color: #3a7999;
-  background-color: #E6E6FA;
-
-}
-
-.pic img{
- float: right;
- border-radius: 100%;
- border: 10px solid #3a7999;
- margin: 5% 10% 0 0;
-
-}
-
-
+/*Nav buttons start*/
 
 button {
 	border: 3px solid #3a7999;
@@ -67,7 +46,9 @@ a:visited {
   display: flex;
   flex-direction: row;
 }
+/*Nav buttons end*/
 
+/*footer start*/
 .contact {
   background-color:  #F7DC6F;
   color:#7D3C98;
@@ -103,6 +84,35 @@ a:visited {
 #medium {
   margin-left: 3%;
 }
+
+/*footer end*/
+
+/*About page start*/
+
+.bio p {
+  margin: 0 2% 0 2%;
+  font-size: 25px;
+  color: #3a7999;
+  background-color: #E6E6FA;
+
+}
+
+h5 {
+  margin: 2% 0 2% 25%;
+  font-size: 35px;
+  color: #3a7999;
+}
+
+.pic img{
+ float: right;
+ border-radius: 100%;
+ border: 10px solid #3a7999;
+ margin: 5% 10% 0 0;
+
+}
+/*About page end*/
+
+/*Portfolio page start*/
 
 .portfolio {
   align-items: center;
@@ -141,6 +151,9 @@ a:visited {
 
 }
 
+/*Portfolio page end*/
+
+/*Resume page start*/
 .resume-link {
   font-size: 18px;
   font-weight: bold;
@@ -174,34 +187,9 @@ a:visited {
   margin-bottom: 0;
 }
 
+/*Resume page end*/
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
-/*@media screen and (min-width: 600px){
-  .nav  {
-    flex-basis: 27%;
-  }
-  .about {
-  flex-basis: 27%;
-  }
-  .header {
-    flex-basis: 27%;
-  }
-}*/
-/*600px}*/
-
-
-/*@media screen and (min-width: 1100px){
-  .nav  {
-    flex-basis: 60%;
-  }
-  .about {
-  flex-basis: 60%;
-  }
-  .header {
-    flex-basis: 60%;
-  }
-}*/
-/*1100px}*/
