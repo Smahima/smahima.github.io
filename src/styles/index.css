@@ -169,13 +169,13 @@ h5 {
 
 .resume-link {
   text-align: center;
-  text-decoration-color: #3a7999;
+  text-decoration-color: #7D3C98;
   font-size: 18px;
   font-weight: bold;
   margin:2% 75% 2% 2%;
-  /*border: 3px solid #3a7999;
-  border-radius: 5px;*/
-  background: #3498DB;
+  border: 3px solid #7D3C98;
+  border-radius: 5px;
+  background: #3a7999;
 }
 
 .resume-link:hover {
