@@ -17,11 +17,11 @@ class BaseLayout extends Component {
        <div className="name">
           <h1> Mahima Subramanian</h1>
           <h3> Front End Web Developer</h3>
-      </div>  
+      </div>
 
         <div className="contact">
           <div className="email">
-            <p>How to get in touch with me: mahima.subramanian[at]gmail.com</p>
+            <p id="gmail">mahima.subramanian[at]gmail.com</p>
             <p><a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">This link opens a blank email</a></p>
           </div>
 

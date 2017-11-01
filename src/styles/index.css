@@ -6,17 +6,85 @@ body {
   background-color: #F7DC6F;
 }
 
+/*Header start*/
+
 .header {
   background-color: #F7DC6F;
   height: 150px;
   padding: 20px;
   color:   #7D3C98;
   margin-bottom: 1%;
-  border: 3px solid #3a7999;
+  border: 10px solid #3a7999;
   display: flex;
   flex-direction: row;
+  border-style: double;
 
 }
+
+/*footer start*/
+.contact {
+  background-color:  #F7DC6F;
+  color:#7D3C98;
+  /*margin: 3% 0 0 3%;*/
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+/*#emaillink{
+  margin-left: 3%;
+}*/
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+#linkedin {
+  margin-left: 3%;
+}
+
+#github {
+  margin-left: 3%;
+}
+
+#medium {
+  margin-left: 3%;
+}
+
+/*footer end*/
+
+#emaillink{
+  margin-left: 3%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%
+}
+
+#linkedin {
+  margin-left: 3%;
+}
+
+#github {
+  margin-left: 3%;
+}
+
+#medium {
+  margin-left: 3%;
+}
+
+/*Header ends*/
 
 /*Nav buttons start*/
 
@@ -51,45 +119,6 @@ a:visited {
 }
 /*Nav buttons end*/
 
-/*footer start*/
-.contact {
-  background-color:  #F7DC6F;
-  color:#7D3C98;
-  /*margin: 3% 0 0 3%;*/
-  display: flex;
-  flex-direction: row;
-  align-items:stretch;
-
-}
-
-.email{
-  display: flex;
-  flex-direction: row;
-}
-
-#emaillink{
-  margin-left: 3%;
-}
-
-.social-media {
-  display: flex;
-  flex-direction: row;
-  margin-left: 5%
-}
-
-#linkedin {
-  margin-left: 3%;
-}
-
-#github {
-  margin-left: 3%;
-}
-
-#medium {
-  margin-left: 3%;
-}
-
-/*footer end*/
 
 /*About page start*/
 
