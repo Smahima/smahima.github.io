@@ -126,18 +126,25 @@ h5 {
 }
 .portfolio-image {
 max-width: 40%;
+float: right;
 
 }
 .project {
   display:flex;
   flex-direction: column;
+  /*column-span: all;*/
   color: #3a7999;
   background-color: #E6E6FA;
   margin: 2% 20% 0 5%;
+
+}
+
+.project-details p {
+
 }
 
 .project-links a {
-  /*margin: 0 90% 0 2%;*/
+  margin-left: 1%;
   text-align: center;
   color: #F7DC6F;
   border: 3px solid #7D3C98;
@@ -146,11 +153,11 @@ max-width: 40%;
 
 }
 
-.project-links:hover {
+/*.project-links:hover {
 	border: 3px dotted #3a7999;
 	color:  #7D3C98;
   background-color: #B3B6B7;
-}
+}*/
 
 /*.project-links a:visited {
   color:  #F7DC6F;
@@ -166,10 +173,7 @@ max-width: 40%;
 text-align: center;
 }
 
-.project-details {
-  float: left;
 
-}
 
 /*Portfolio page end*/
 
