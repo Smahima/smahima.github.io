@@ -18,10 +18,8 @@ body {
   display: flex;
   flex-direction: row;
   border-style: double;
-
 }
 
-/*footer start*/
 .contact {
   background-color:  #F7DC6F;
   color:#7D3C98;
@@ -42,30 +40,6 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: 20%;
-}
-
-#linkedin {
-  margin-left: 3%;
-}
-
-#github {
-  margin-left: 3%;
-}
-
-#medium {
-  margin-left: 3%;
-}
-
-/*footer end*/
-
-#emaillink{
-  margin-left: 3%;
-}
-
-.social-media {
-  display: flex;
-  flex-direction: row;
-  margin-left: 5%
 }
 
 #linkedin {
@@ -127,9 +101,10 @@ a:visited {
 }
 
 h5 {
-  margin: 2% 0 2% 25%;
+  margin: 2% 0 2% 35%;
   font-size: 35px;
   color: #3a7999;
+  text-align: center;
 }
 
 .pic img{
@@ -194,13 +169,13 @@ h5 {
 
 .resume-link {
   text-align: center;
-  text-decoration-color: #F7DC6F;
+  text-decoration-color: #3a7999;
   font-size: 18px;
   font-weight: bold;
   margin:2% 75% 2% 2%;
-  border: 3px solid #3a7999;
-  border-radius: 5px;
-  background: #7D3C98;
+  /*border: 3px solid #3a7999;
+  border-radius: 5px;*/
+  background: #3498DB;
 }
 
 .resume-link:hover {
@@ -219,6 +194,10 @@ a:visited {
   background-color: #E6E6FA;
   text-align: center;
   font-weight: bold;
+}
+
+.resume-email{
+  margin: 0 4% 0 4%;
 }
 
 .resume-body {

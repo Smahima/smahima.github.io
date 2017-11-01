@@ -22,8 +22,8 @@ export default  class Resume extends Component {
           <h2> Mahima Subramanian</h2>
           <h4> Front End Web Developer</h4>
           <p>
-            <a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">This link opens a blank email</a>
-            <a> Contact me: mahima.subramanian[at]gmailcom</a>
+            <a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">Click to open a blank email</a>
+            <a className="resume-email"> mahima.subramanian[at]gmailcom</a>
             <a id="linkedin" href="https://www.linkedin.com/in/msubramanian/"><img src={LinkedIn} alt="LinkedIn Icon" height="50px"/></a>
             <a id="github" href="https://github.com/Smahima"><img src={GitHub} alt="GitHub Icon" height="50px"/></a>
             <a id="medium" href="https://medium.com/@mahimaS"><img src={Medium} alt="Medium" height="50px"/></a>
