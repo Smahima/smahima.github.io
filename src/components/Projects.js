@@ -13,8 +13,6 @@ export default class Projects extends Component {
 
      return (
 
-
-
        <div className="portfolio">
 
        <div className="project">
@@ -51,13 +49,16 @@ export default class Projects extends Component {
          </div>
 
         <div className="inProgress">
-        <h2>Under Construction</h2>
-          <h3> ClearPath</h3>
-          <img src={clearpath} className="portfolio-image"/>
-          <p className="project-details"> A venue rating site focused on Accessibility.</p>
-          <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
+          <a id="under-construction"><h2>Under Construction</h2></a>
+
+          <div className="project">
+            <h3> ClearPath</h3>
+            <img src={clearpath} className="portfolio-image"/>
+            <p className="project-details"> A venue rating site focused on Accessibility.</p>
+            <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript, React</p>
           <div className="project-links">
-            <a href="https://github.com/Smahima/clearPath"> Code</a>
+              <a href="https://github.com/Smahima/clearPath">Code</a>
+          </div>
           </div>
          </div>
 
