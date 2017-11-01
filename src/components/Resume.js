@@ -29,7 +29,7 @@ export default  class Resume extends Component {
             <a id="medium" href="https://medium.com/@mahimaS"><img src={Medium} alt="Medium" height="50px"/></a>
           </p>
         </div>
-        
+
           <h2> SKILLS</h2>
          <div className="skills">
            <p>Technical Skills:</p>

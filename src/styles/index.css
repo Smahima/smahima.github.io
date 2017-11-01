@@ -12,7 +12,9 @@ body {
   padding: 20px;
   color:   #7D3C98;
   margin-bottom: 1%;
-  justify-content: center;
+  text-align: center;
+  border: 3px solid #3a7999;
+
 }
 
 /*Nav buttons start*/
@@ -56,6 +58,7 @@ a:visited {
   display: flex;
   flex-direction: row;
   align-items:stretch;
+  border: 3px solid #3a7999;
 }
 
 .email{
