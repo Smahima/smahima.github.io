@@ -11,23 +11,6 @@ h5 {
   color: #3a7999;
 }
 
-.bio p {
-  margin: 0 2% 0 2%;
-  font-size: 25px;
-  color: #3a7999;
-  background-color: #E6E6FA;
-
-}
-
-
-
- /*p span {
-  margin: 0 0 0 0%;
-  font-size: 25px;
-  color: #3a7999;
-  background-color: #E6E6FA;
-}*/
-
 .header {
   background-color: #F7DC6F;
   height: 150px;
@@ -37,6 +20,13 @@ h5 {
   justify-content: center;
 }
 
+.bio p {
+  margin: 0 2% 0 2%;
+  font-size: 25px;
+  color: #3a7999;
+  background-color: #E6E6FA;
+
+}
 
 .pic img{
  float: right;
@@ -161,6 +151,8 @@ a:visited {
   margin: 2% 5% 0 2%;
   color:  #3a7999;
   background-color: #E6E6FA;
+  text-align: center;
+  font-weight: bold;
 }
 
 .resume-body {
@@ -173,7 +165,6 @@ a:visited {
   display: flex;
   flex-direction: row;
 }
-
 
 .experience h5 {
   margin: 0 0 2% 1%;

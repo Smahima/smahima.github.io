@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import LinkedIn from '../images/In-2C-128px-TM.png';
+import GitHub from '../images/GitHub-Mark-120px-plus.png';
+import Medium from '../images/mediumWhite.png';
+
 
 export default  class Resume extends Component {
   render() {
@@ -14,7 +18,13 @@ export default  class Resume extends Component {
          <div className="resume-header">
            <h2> Mahima Subramanian</h2>
            <h4> Front End Web Developer</h4>
-           <p> mahima.subramanian[at]gmailcom | <a href="https://wwwlinkedincom/in/msubramanian/" >LinkedIn</a> | <a href="https://githubcom/Smahima">GitHub </a>| <a href="https://mediumcom/@mahimaS">Medium </a></p>
+           <p>
+             <a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">This link opens a blank email</a>
+             <a> Contact me: mahima.subramanian[at]gmailcom</a>
+             <a id="linkedin" href="https://www.linkedin.com/in/msubramanian/"><img src={LinkedIn} alt="LinkedIn Icon" height="50px"/></a>
+             <a id="github" href="https://github.com/Smahima"><img src={GitHub} alt="GitHub Icon" height="50px"/></a>
+             <a id="medium" href="https://medium.com/@mahimaS"><img src={Medium} alt="Medium" height="50px"/></a>
+           </p>
          </div>
 
         <div className="resume-body">
@@ -91,7 +101,7 @@ export default  class Resume extends Component {
           <ul>
             <li>India New England, Nominated for Woman of the Year Award for Excellence in Human Services Leadership, 2011.</li>
             <li>India New England, Named one of 50 most influential people, recognized for leadership at the Center for Hope and Healing, 2011</li>
-          </ul>  
+          </ul>
           </div>
          </div><br></br>
 
