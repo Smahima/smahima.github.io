@@ -16,6 +16,7 @@ export default class About extends Component {
           </div>
 
           <div className="bio">
+          
             <h5>{"Howdy, I'm Mahima!"}</h5>
             <p><span>Moved to Austin from New England (could not take those winters anymore),</span></p>
             <p><span>over two years ago and now happy to call ATX home.</span></p>

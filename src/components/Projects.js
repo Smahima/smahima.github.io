@@ -20,7 +20,7 @@ export default class Projects extends Component {
          <p className="project-details">This project tasked us to create a simple calculator able to handle basic arithmetic.</p>
          <p className="technology"> <span className="bold"> Technology used:</span> CSS, HTML5, JavaScript</p>
          <div className="project-links">
-           <a href="https://ceramicscreekbent.surge.sh">Live Link </a>
+           <a href="https://ceramicscreekbent.surge.sh">Live Link</a>
            <a href="https://github.com/Smahima/bentCreekCeramics.git"> Code</a>
          </div>
         </div>
