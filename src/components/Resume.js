@@ -13,14 +13,13 @@ export default  class Resume extends Component {
 
          <div className="resume-header">
            <h2> Mahima Subramanian</h2>
-           <h3> Front End Web Developer</h3>
+           <h4> Front End Web Developer</h4>
            <p> mahima.subramanian[at]gmailcom | <a href="https://wwwlinkedincom/in/msubramanian/" >LinkedIn</a> | <a href="https://githubcom/Smahima">GitHub </a>| <a href="https://mediumcom/@mahimaS">Medium </a></p>
          </div>
 
         <div className="resume-body">
-
+          <h2> SKILLS</h2>
          <div className="skills">
-           <h3> SKILLS </h3>
            <p>Technical Skills:</p>
            <ul>
             <li>CSS</li>
@@ -45,12 +44,12 @@ export default  class Resume extends Component {
          </div>
 
          <div className="experience">
-           <h3> EXPERIENCE </h3>
+           <h2> EXPERIENCE </h2>
 
            <div>
-            <h5>IBM Kenexa Smarter Workforce - Austin,TX</h5>
-            <h5>Project Manager (software implementation 2015-2017)</h5>
-            <h5>Project Coordinator, Project Management Operations (2013 to 2015)</h5>
+            <h4>IBM Kenexa Smarter Workforce - Austin,TX</h4>
+            <h4>Project Manager (software implementation 2015-2017)</h4>
+            <h4>Project Coordinator, Project Management Operations (2013 to 2015)</h4>
             <ul>
               <li>Managed migration of 150 clients on IBM Kenexa Assess on Cloud application to new product platform and completed 40 new client implementations</li>
               <li>Ran weekly Project Status Reports on 300 projects, monitoring key data for active projects, high risk projects, on-time delivery of product</li>
@@ -60,40 +59,47 @@ export default  class Resume extends Component {
               <li>Communicated with clients across all Smarter Workforce products, inquiring about feedback on implementation experience via IBM’s Customer Satisfaction Survey and providing opportunity to address concerns directly with leadership</li>
               <li>Obtained survey results, conducting metrics analysis and reported to leadership on data, and made informed decisions on procedure changes</li>
               <li>Revised and maintained guides, documenting internal PMO processes</li>
-            </ul>
+            </ul><br></br>
 
-            <h5>Center for Hope and Healing - Lowell,MA</h5>
-            <h5>Executive Director (2008 to 2012)</h5>
+            <h4>Center for Hope and Healing - Lowell,MA</h4>
+            <h4>Executive Director (2008 to 2012)</h4>
             <ul>
               <li>Executed agency’s vision and mission through day-to-day operations, directed work of 6 staff members, developed and managed annual budget of approximately $400,000</li>
               <li>Worked with Board of Directors to determine long-term goals to foster progress and uphold agency’s mission to eradicate sexual violence</li>
             </ul>
-           </div>
+           </div><br></br>
 
          <div className="education">
-            <h3>EDUCATION</h3>
-            <h5>Certificate Program Full Stack Web Development</h5>
+            <h2>EDUCATION</h2>
+          <div>
+            <h4>Certificate Program Full Stack Web Development</h4>
             <p>Language specialization: React</p>
-            <p>The Iron Yard, Austin, TX (2017)</p>
+            <p>The Iron Yard, Austin, TX (2017)</p><br></br>
 
-            <h5>Masters of Science, Organizational Communications and Leadership</h5>
+            <h4>Masters of Science, Organizational Communications and Leadership</h4>
             <p>GPA 3.7</p>
-            <p>Northeastern University, Boston, MA(December 2017)</p>
+            <p>Northeastern University, Boston, MA(December 2017)</p><br></br>
 
-            <h5>Bachelor of Science,</h5><p>in Psychology and American Sign Language</p>
+            <h4>Bachelor of Science,</h4><p>in Psychology and American Sign Language</p>
             <p>Northeastern University, Boston, MA(2004)</p>
           </div>
+          </div><br></br>
 
           <div className="recognitions"></div>
-            <p>India New England, Nominated for Woman of the Year Award</p>
-            <p> for Excellence in Human Services Leadership, 2011.</p>
-
-            <p>India New England, Named one of 50 most influential people,</p>
-            <p>recognized for leadership at the Center for Hope and Healing, 2011</p>
-         </div>
+              <h2>RECOGNITIONS</h2>
+          <div>
+          <ul>
+            <li>India New England, Nominated for Woman of the Year Award for Excellence in Human Services Leadership, 2011.</li>
+            <li>India New England, Named one of 50 most influential people, recognized for leadership at the Center for Hope and Healing, 2011</li>
+          </ul>  
+          </div>
+         </div><br></br>
 
          <div className="languages"></div>
+            <h2>LANGUAGES</h2>
+          <div>
            <p>Bilingual Fluent in English and Tamil</p>
+          </div>
         </div>
 
        </div>

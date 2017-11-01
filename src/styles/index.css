@@ -138,7 +138,6 @@ a:visited {
   text-align: center;
   color: #F7DC6F;
 
-
 }
 
 .inProgress {
@@ -159,13 +158,13 @@ a:visited {
 }
 
 .resume-header {
-  margin: 2% 0 0 2%;
+  margin: 2% 5% 0 2%;
   color:  #3a7999;
   background-color: #E6E6FA;
 }
 
 .resume-body {
-  margin: 0 0 0 2%;
+  margin: 0 5% 0 2%;
   color:  #3a7999;
   background-color: #E6E6FA;
 }
@@ -175,14 +174,14 @@ a:visited {
   flex-direction: row;
 }
 
-.experience p {
-  margin-bottom: 0;
+
+.experience h5 {
+  margin: 0 0 2% 1%;
 }
 
 .education p {
   margin-bottom: 0;
 }
-
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
