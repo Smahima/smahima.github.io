@@ -543,23 +543,15 @@ h5 {
 
 /*Portfolio page start*/
 
-/*.portfolio {
+.portfolio {
   justify-content: center;
   column-span: all;
 }
 .portfolio-image {
-max-width: 40%;*/
-/*float: right;
-}*/
+max-width: 40%;
+float: right;
+}
 
-#img {
-  float: right ;
-  width: 80% ;
-}
-#content {
-  float: right;
-  width: 20%;
-}
 
 .project {
   display:flex;
