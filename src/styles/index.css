@@ -100,10 +100,10 @@ h5 {
 }
 
 .pic img{
- float: right;
+  float: right;
  border-radius: 100%;
  border: 10px solid #3a7999;
- margin: 5% 10% 0 0;
+ margin: 8% 5% 0 0;
 
 }
 
@@ -115,18 +115,19 @@ h5 {
 }
 
 #bio-text p {
-  margin: 0;
+  margin: 0 0 0 2%;
 }
 /*About page end*/
 
 /*Portfolio page start*/
 
 .portfolio {
-  align-items: center;
+  justify-content: center;
+  column-span: all;
 }
 .portfolio-image {
 max-width: 40%;
-float: right;
+/*float: right;*/
 
 }
 .project {
@@ -136,10 +137,6 @@ float: right;
   color: #3a7999;
   background-color: #E6E6FA;
   margin: 2% 20% 0 5%;
-
-}
-
-.project-details p {
 
 }
 
@@ -172,8 +169,6 @@ float: right;
 #under-construction {
 text-align: center;
 }
-
-
 
 /*Portfolio page end*/
 
