@@ -22,20 +22,9 @@ export default class About extends Component {
             <p>Moved to Austin from New England (could not take those winters anymore),</p>
             <p>over two years ago and now happy to call ATX home.</p><br></br>
 
-            <p>I am a front end web developer, recently completed a fullstack program at The Iron Yard where</p>
-            <p>I learned React. I devote my time to creating engaging, attractive, and user-friendly sites. I have  </p>
-            <p>showcased a few projects that are complete and one that is in progress. My personal site </p>
-            <p> itself is constantly updated as I learn new functionality and ways in which to style. </p>
+            <p>I am a project manager with experience in software implementation, focused on delivering customized solutions for our clients.</p>
             <br></br>
 
-            <p>My personal mission statement is to live life with purpose and intention, in everything</p>
-            <p>I do, personal and professional. I found my way to coding through diverse career paths</p>
-            <p>from social work to project management.</p>
-            <br></br>
-
-            <p>When I’m not in front of the terminal, I am reading (my ideal home is a library),</p>
-            <p>dancing, volunteering, or enjoying what Austin has to offer. Exploring Austin includes</p>
-            <p>finding coffee shops in which to read or code. Come join me for a cup of java! (see what I did there?)</p><br></br>
           </div>
         </div>
         </div>
