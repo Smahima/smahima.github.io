@@ -12,7 +12,7 @@ export default  class Resume extends Component {
        <div className="resume">
 
        <div className="resume-link">
-         <a href='https://docs.google.com/document/d/19mS5F52qNMoSC2mOD2kfM1IFO_Mglp96laS73uBbALk/edit?usp=sharing'>Download résumé</a>
+         <a href='https://docs.google.com/document/d/1CpJTMuxidZ6UfNnCUPwFnTC6W0w-JxaDrAx0DGB-lPM/edit'>Download résumé</a>
        </div>
 
 
@@ -20,7 +20,7 @@ export default  class Resume extends Component {
 
         <div className="resume-header">
           <h2> Mahima Subramanian</h2>
-          <h4> Front End Web Developer</h4>
+          <h4> Project Manager </h4>
           <p>
             <a id="emaillink" href="mailto:mahima.subramanian@gmail.com?subject=Ciao Mahima!">Click to open a blank email</a>
             <a className="resume-email"> mahima.subramanian[at]gmailcom</a>
@@ -32,7 +32,7 @@ export default  class Resume extends Component {
 
           <h2> SKILLS</h2>
          <div className="skills">
-           <p>Technical Skills:</p>
+           <p>Technical Skills:</p>x
            <ul>
             <li>CSS</li>
             <li>Git</li>
