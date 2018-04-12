@@ -16,7 +16,7 @@ class BaseLayout extends Component {
 
        <div className="name">
           <h1> Mahima Subramanian</h1>
-          <h3> Front End Web Developer</h3>
+          <h3> Project Manager</h3>
       </div>
 
         <div className="contact">
